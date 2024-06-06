@@ -1,0 +1,28 @@
+.homes__row {
+    margin: 105px auto;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(156px, 296px));
+    column-gap: 16px;
+    position: relative;
+}
+
+.item-homes__icon {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: 296px;
+}
+
+.item-name {
+    margin-top: 16px;
+    font-size: 24px;
+    line-height: 1.2;
+    color: var(--accent-blue);
+}
+
+.item-homes__country {
+    margin: 16px 0;
+    font-size: 24px;
+    line-height: 1.2;
+    color: var(--secondary-text);
+}
